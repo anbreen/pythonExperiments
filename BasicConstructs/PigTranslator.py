@@ -4,4 +4,9 @@ def pigTranslator(input):
    return pigTranslated
 
 input = raw_input("Enter any word for the Pig Latin Translator")
-print pigTranslator(input)
+if len(input) > 0 :
+    print input + "Let's Continue"
+    print pigTranslator(input)
+else:
+    print "String is Empty"
+
